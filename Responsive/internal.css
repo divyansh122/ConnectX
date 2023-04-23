@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+     /* background-image: url(image2.jpg);  */
+     background-color: black;
+}
+     
+.main{
+    
+}
+
+.cards{
+    width: 20%;
+   background-color: #ff66c4;
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 50px;
+    margin-top:20px;
+    margin-bottom: 20px;
+
+
+}
+.cards:hover{
+    background-color: #215394;
+    color: white;
+    transition: 5px;
+    
+}
+.feg{
+    border-radius: 10px ;
+    border-width: 2px solid;
+    border-color: black;
+    font-size: 20px;
+    font-family: Anek Kannada;
+}
+
+.image img{
+    width: 100%;
+   border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+   
+
+
+}
+.title{
+    text-align: center;
+    padding: 5px;
+}
+.des{
+    text-align: center;
+   
+}
+button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: 1-x solid black;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transition: 5px;
+    
+}
